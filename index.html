@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List made by Debjyoti Das</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <div class="input-container">
+            <input type="text" id="task" placeholder="Add a new task">
+            <button id="addTask">Add</button>
+        </div>
+        <div class="filters">
+            <label for="filter">Filter by Category:</label>
+            <select id="filter">
+                <option value="all">All</option>
+                <option value="design">Design</option>
+                <option value="development">Development</option>
+                <option value="content">Content</option>
+                <option value="marketing">Marketing</option>
+            </select>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 400px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+.input-container input{
+    height: 35px;
+    margin: 20px;
+}
+
+#task {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+#addTask {
+    background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+.filters {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 14px;
+    margin-right: 5px;
+    color: white;
+}
+
+#filter {
+    padding: 3px;
+    font-size: 14px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+li .delete {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+
+.all{
+    background-image: linear-gradient(to top, #50cc7f 0%, #f5d100 100%);
+}
+
+.design {
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+}
+
+.development {
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+}
+
+.content {
+    background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+}
+
+.marketing {
+    background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+}
